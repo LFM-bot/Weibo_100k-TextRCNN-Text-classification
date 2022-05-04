@@ -1,0 +1,64 @@
+2022-04-20 22:34:57 INFO     log save at : log\TextRCNN_ratio0.2_0.log
+2022-04-20 22:34:57 INFO     Namespace(batch_size=256, data_ratio=0.2, device=device(type='cuda', index=0), dropout=0.8, embed_size=128, hidden_size=128, log_save='log', lr=0.001, max_len=None, model_name='TextRCNN', num_classes=2, num_epoch=100, num_layers=3, run_time=0, stop_word='data/hit_stopwords.txt', test_data='data/test_data_0.2.txt', train_data='data/train_data_0.2.txt', voc_path='data/voc_dict_0.2.txt', voc_size=1002)
+2022-04-20 22:34:57 INFO     train size: 21598 test size: 2399
+2022-04-20 22:35:13 INFO     Epoch:1 [13.3s] loss: 0.4833
+2022-04-20 22:35:13 INFO     test acc: 0.9533 test loss: 0.3601
+2022-04-20 22:35:13 INFO     Evaluation time: 0.4s
+2022-04-20 22:35:26 INFO     Epoch:2 [12.8s] loss: 0.3486
+2022-04-20 22:35:26 INFO     test acc: 0.9679 test loss: 0.3442
+2022-04-20 22:35:26 INFO     Evaluation time: 0.4s
+2022-04-20 22:35:39 INFO     Epoch:3 [12.7s] loss: 0.3420
+2022-04-20 22:35:40 INFO     test acc: 0.9783 test loss: 0.3336
+2022-04-20 22:35:40 INFO     Evaluation time: 0.4s
+2022-04-20 22:35:52 INFO     Epoch:4 [12.8s] loss: 0.3360
+2022-04-20 22:35:53 INFO     test acc: 0.9783 test loss: 0.3337
+2022-04-20 22:35:53 INFO     Evaluation time: 0.4s
+2022-04-20 22:36:06 INFO     Epoch:5 [12.8s] loss: 0.3356
+2022-04-20 22:36:06 INFO     test acc: 0.9787 test loss: 0.3333
+2022-04-20 22:36:06 INFO     Evaluation time: 0.4s
+2022-04-20 22:36:19 INFO     Epoch:6 [12.9s] loss: 0.3356
+2022-04-20 22:36:19 INFO     test acc: 0.9783 test loss: 0.3337
+2022-04-20 22:36:19 INFO     Evaluation time: 0.4s
+2022-04-20 22:36:32 INFO     Epoch:7 [12.9s] loss: 0.3355
+2022-04-20 22:36:32 INFO     test acc: 0.9783 test loss: 0.3336
+2022-04-20 22:36:32 INFO     Evaluation time: 0.4s
+2022-04-20 22:36:45 INFO     Epoch:8 [12.9s] loss: 0.3357
+2022-04-20 22:36:46 INFO     test acc: 0.9787 test loss: 0.3332
+2022-04-20 22:36:46 INFO     Evaluation time: 0.4s
+2022-04-20 22:36:59 INFO     Epoch:9 [13.0s] loss: 0.3340
+2022-04-20 22:36:59 INFO     test acc: 0.9812 test loss: 0.3309
+2022-04-20 22:36:59 INFO     Evaluation time: 0.4s
+2022-04-20 22:37:12 INFO     Epoch:10 [13.0s] loss: 0.3309
+2022-04-20 22:37:12 INFO     test acc: 0.9812 test loss: 0.3309
+2022-04-20 22:37:12 INFO     Evaluation time: 0.4s
+2022-04-20 22:37:26 INFO     Epoch:11 [13.2s] loss: 0.3306
+2022-04-20 22:37:26 INFO     test acc: 0.9812 test loss: 0.3309
+2022-04-20 22:37:26 INFO     Evaluation time: 0.4s
+2022-04-20 22:37:39 INFO     Epoch:12 [13.2s] loss: 0.3305
+2022-04-20 22:37:40 INFO     test acc: 0.9812 test loss: 0.3309
+2022-04-20 22:37:40 INFO     Evaluation time: 0.4s
+2022-04-20 22:37:53 INFO     Epoch:13 [13.0s] loss: 0.3306
+2022-04-20 22:37:53 INFO     test acc: 0.9817 test loss: 0.3305
+2022-04-20 22:37:53 INFO     Evaluation time: 0.4s
+2022-04-20 22:38:06 INFO     Epoch:14 [13.0s] loss: 0.3302
+2022-04-20 22:38:06 INFO     test acc: 0.9821 test loss: 0.3302
+2022-04-20 22:38:06 INFO     Evaluation time: 0.4s
+2022-04-20 22:38:19 INFO     Epoch:15 [13.0s] loss: 0.3303
+2022-04-20 22:38:20 INFO     test acc: 0.9825 test loss: 0.3297
+2022-04-20 22:38:20 INFO     Evaluation time: 0.4s
+2022-04-20 22:38:33 INFO     Epoch:16 [13.0s] loss: 0.3302
+2022-04-20 22:38:33 INFO     test acc: 0.9821 test loss: 0.3299
+2022-04-20 22:38:33 INFO     Evaluation time: 0.4s
+2022-04-20 22:38:46 INFO     Epoch:17 [13.0s] loss: 0.3302
+2022-04-20 22:38:47 INFO     test acc: 0.9812 test loss: 0.3307
+2022-04-20 22:38:47 INFO     Evaluation time: 0.4s
+2022-04-20 22:39:00 INFO     Epoch:18 [13.0s] loss: 0.3301
+2022-04-20 22:39:00 INFO     test acc: 0.9812 test loss: 0.3309
+2022-04-20 22:39:00 INFO     Evaluation time: 0.4s
+2022-04-20 22:39:13 INFO     Epoch:19 [13.0s] loss: 0.3300
+2022-04-20 22:39:13 INFO     test acc: 0.9812 test loss: 0.3307
+2022-04-20 22:39:13 INFO     Evaluation time: 0.4s
+2022-04-20 22:39:26 INFO     Epoch:20 [13.0s] loss: 0.3301
+2022-04-20 22:39:27 INFO     test acc: 0.9817 test loss: 0.3305
+2022-04-20 22:39:27 INFO     Evaluation time: 0.4s
+2022-04-20 22:39:27 INFO     Early stopping is trigger at epoch: 14 best acc:0.9825

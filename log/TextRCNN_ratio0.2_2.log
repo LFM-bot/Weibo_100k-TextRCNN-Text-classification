@@ -1,0 +1,97 @@
+2022-05-04 10:36:35 INFO     log save at : log\TextRCNN_ratio0.2_2.log
+2022-05-04 10:36:35 INFO     Namespace(batch_size=256, data_ratio=0.2, device=device(type='cuda', index=0), dropout=0.8, embed_size=128, es_epoch=5, hidden_size=128, log_save='log', lr=0.001, max_len=None, model_name='TextRCNN', num_classes=2, num_epoch=100, num_layers=3, run_time=0, test_data='data/test_data_0.2.txt', train_data='data/train_data_0.2.txt', voc_path='data/voc_dict_0.2.txt', voc_size=1002)
+2022-05-04 10:36:35 INFO     train size: 21598 test size: 2399
+2022-05-04 10:36:51 INFO     Epoch:1 [13.5s] train loss: 0.4985
+2022-05-04 10:36:52 INFO     test acc: 0.9075 test loss: 0.4072
+2022-05-04 10:36:52 INFO     Evaluation time: 0.4s
+2022-05-04 10:37:04 INFO     Epoch:2 [12.8s] train loss: 0.4153
+2022-05-04 10:37:05 INFO     test acc: 0.9154 test loss: 0.3989
+2022-05-04 10:37:05 INFO     Evaluation time: 0.4s
+2022-05-04 10:37:18 INFO     Epoch:3 [12.9s] train loss: 0.3790
+2022-05-04 10:37:18 INFO     test acc: 0.9504 test loss: 0.3638
+2022-05-04 10:37:18 INFO     Evaluation time: 0.4s
+2022-05-04 10:37:31 INFO     Epoch:4 [12.9s] train loss: 0.3679
+2022-05-04 10:37:31 INFO     test acc: 0.9583 test loss: 0.3563
+2022-05-04 10:37:31 INFO     Evaluation time: 0.4s
+2022-05-04 10:37:44 INFO     Epoch:5 [13.0s] train loss: 0.3605
+2022-05-04 10:37:45 INFO     test acc: 0.9583 test loss: 0.3554
+2022-05-04 10:37:45 INFO     Evaluation time: 0.4s
+2022-05-04 10:37:58 INFO     Epoch:6 [13.3s] train loss: 0.3775
+2022-05-04 10:37:58 INFO     test acc: 0.6069 test loss: 0.7067
+2022-05-04 10:37:58 INFO     Evaluation time: 0.4s
+2022-05-04 10:38:11 INFO     Epoch:7 [13.0s] train loss: 0.5260
+2022-05-04 10:38:12 INFO     test acc: 0.9554 test loss: 0.3604
+2022-05-04 10:38:12 INFO     Evaluation time: 0.4s
+2022-05-04 10:38:25 INFO     Epoch:8 [13.0s] train loss: 0.3666
+2022-05-04 10:38:25 INFO     test acc: 0.9629 test loss: 0.3517
+2022-05-04 10:38:25 INFO     Evaluation time: 0.4s
+2022-05-04 10:38:38 INFO     Epoch:9 [13.0s] train loss: 0.3503
+2022-05-04 10:38:39 INFO     test acc: 0.9550 test loss: 0.3583
+2022-05-04 10:38:39 INFO     Evaluation time: 0.4s
+2022-05-04 10:38:52 INFO     Epoch:10 [13.1s] train loss: 0.3834
+2022-05-04 10:38:52 INFO     test acc: 0.9579 test loss: 0.3555
+2022-05-04 10:38:52 INFO     Evaluation time: 0.4s
+2022-05-04 10:39:05 INFO     Epoch:11 [13.2s] train loss: 0.3471
+2022-05-04 10:39:06 INFO     test acc: 0.9696 test loss: 0.3434
+2022-05-04 10:39:06 INFO     Evaluation time: 0.4s
+2022-05-04 10:39:19 INFO     Epoch:12 [13.1s] train loss: 0.3474
+2022-05-04 10:39:19 INFO     test acc: 0.9671 test loss: 0.3453
+2022-05-04 10:39:19 INFO     Evaluation time: 0.4s
+2022-05-04 10:39:32 INFO     Epoch:13 [13.2s] train loss: 0.3379
+2022-05-04 10:39:33 INFO     test acc: 0.9779 test loss: 0.3355
+2022-05-04 10:39:33 INFO     Evaluation time: 0.4s
+2022-05-04 10:39:46 INFO     Epoch:14 [12.9s] train loss: 0.3348
+2022-05-04 10:39:46 INFO     test acc: 0.9792 test loss: 0.3342
+2022-05-04 10:39:46 INFO     Evaluation time: 0.4s
+2022-05-04 10:39:59 INFO     Epoch:15 [13.1s] train loss: 0.3332
+2022-05-04 10:40:00 INFO     test acc: 0.9787 test loss: 0.3345
+2022-05-04 10:40:00 INFO     Evaluation time: 0.4s
+2022-05-04 10:40:13 INFO     Epoch:16 [13.0s] train loss: 0.3324
+2022-05-04 10:40:13 INFO     test acc: 0.9792 test loss: 0.3341
+2022-05-04 10:40:13 INFO     Evaluation time: 0.4s
+2022-05-04 10:40:26 INFO     Epoch:17 [12.9s] train loss: 0.3321
+2022-05-04 10:40:26 INFO     test acc: 0.9796 test loss: 0.3337
+2022-05-04 10:40:26 INFO     Evaluation time: 0.4s
+2022-05-04 10:40:39 INFO     Epoch:18 [12.9s] train loss: 0.3323
+2022-05-04 10:40:40 INFO     test acc: 0.9800 test loss: 0.3333
+2022-05-04 10:40:40 INFO     Evaluation time: 0.4s
+2022-05-04 10:40:53 INFO     Epoch:19 [13.1s] train loss: 0.3323
+2022-05-04 10:40:53 INFO     test acc: 0.9800 test loss: 0.3333
+2022-05-04 10:40:53 INFO     Evaluation time: 0.4s
+2022-05-04 10:41:06 INFO     Epoch:20 [13.0s] train loss: 0.3316
+2022-05-04 10:41:07 INFO     test acc: 0.9800 test loss: 0.3333
+2022-05-04 10:41:07 INFO     Evaluation time: 0.4s
+2022-05-04 10:41:20 INFO     Epoch:21 [13.2s] train loss: 0.3312
+2022-05-04 10:41:20 INFO     test acc: 0.9804 test loss: 0.3329
+2022-05-04 10:41:20 INFO     Evaluation time: 0.4s
+2022-05-04 10:41:33 INFO     Epoch:22 [13.2s] train loss: 0.3314
+2022-05-04 10:41:34 INFO     test acc: 0.9804 test loss: 0.3330
+2022-05-04 10:41:34 INFO     Evaluation time: 0.4s
+2022-05-04 10:41:47 INFO     Epoch:23 [13.0s] train loss: 0.3315
+2022-05-04 10:41:47 INFO     test acc: 0.9796 test loss: 0.3337
+2022-05-04 10:41:47 INFO     Evaluation time: 0.4s
+2022-05-04 10:42:00 INFO     Epoch:24 [13.1s] train loss: 0.3314
+2022-05-04 10:42:01 INFO     test acc: 0.9808 test loss: 0.3326
+2022-05-04 10:42:01 INFO     Evaluation time: 0.4s
+2022-05-04 10:42:14 INFO     Epoch:25 [13.1s] train loss: 0.3312
+2022-05-04 10:42:14 INFO     test acc: 0.9808 test loss: 0.3326
+2022-05-04 10:42:14 INFO     Evaluation time: 0.4s
+2022-05-04 10:42:27 INFO     Epoch:26 [12.9s] train loss: 0.3310
+2022-05-04 10:42:28 INFO     test acc: 0.9812 test loss: 0.3322
+2022-05-04 10:42:28 INFO     Evaluation time: 0.4s
+2022-05-04 10:42:40 INFO     Epoch:27 [12.9s] train loss: 0.3310
+2022-05-04 10:42:41 INFO     test acc: 0.9812 test loss: 0.3322
+2022-05-04 10:42:41 INFO     Evaluation time: 0.4s
+2022-05-04 10:42:54 INFO     Epoch:28 [13.0s] train loss: 0.3311
+2022-05-04 10:42:54 INFO     test acc: 0.9812 test loss: 0.3322
+2022-05-04 10:42:54 INFO     Evaluation time: 0.4s
+2022-05-04 10:43:07 INFO     Epoch:29 [12.9s] train loss: 0.3336
+2022-05-04 10:43:07 INFO     test acc: 0.9783 test loss: 0.3356
+2022-05-04 10:43:07 INFO     Evaluation time: 0.4s
+2022-05-04 10:43:20 INFO     Epoch:30 [12.9s] train loss: 0.3345
+2022-05-04 10:43:21 INFO     test acc: 0.9808 test loss: 0.3326
+2022-05-04 10:43:21 INFO     Evaluation time: 0.4s
+2022-05-04 10:43:34 INFO     Epoch:31 [12.8s] train loss: 0.3322
+2022-05-04 10:43:34 INFO     test acc: 0.9808 test loss: 0.3326
+2022-05-04 10:43:34 INFO     Evaluation time: 0.4s
+2022-05-04 10:43:34 INFO     Early stopping is trigger at epoch: 26 best acc:0.9812

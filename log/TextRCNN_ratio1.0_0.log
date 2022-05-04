@@ -1,0 +1,28 @@
+2022-04-20 22:40:31 INFO     log save at : log\TextRCNN_ratio1.0_0.log
+2022-04-20 22:40:31 INFO     Namespace(batch_size=256, data_ratio=1, device=device(type='cuda', index=0), dropout=0.8, embed_size=128, hidden_size=128, log_save='log', lr=0.001, max_len=None, model_name='TextRCNN', num_classes=2, num_epoch=100, num_layers=3, run_time=0, test_data='data/test_data_1.txt', train_data='data/train_data_1.txt', voc_path='data/voc_dict_1.txt', voc_size=1002)
+2022-04-20 22:40:32 INFO     train size: 107990 test size: 11998
+2022-04-20 22:42:19 INFO     Epoch:1 [104.7s] loss: 0.3694
+2022-04-20 22:42:22 INFO     test acc: 0.9822 test loss: 0.3311
+2022-04-20 22:42:22 INFO     Evaluation time: 3.2s
+2022-04-20 22:44:05 INFO     Epoch:2 [103.0s] loss: 0.3315
+2022-04-20 22:44:09 INFO     test acc: 0.9822 test loss: 0.3311
+2022-04-20 22:44:09 INFO     Evaluation time: 3.3s
+2022-04-20 22:45:52 INFO     Epoch:3 [103.3s] loss: 0.3313
+2022-04-20 22:45:55 INFO     test acc: 0.9824 test loss: 0.3308
+2022-04-20 22:45:55 INFO     Evaluation time: 3.1s
+2022-04-20 22:47:38 INFO     Epoch:4 [103.3s] loss: 0.3313
+2022-04-20 22:47:42 INFO     test acc: 0.9823 test loss: 0.3310
+2022-04-20 22:47:42 INFO     Evaluation time: 3.3s
+2022-04-20 22:49:28 INFO     Epoch:5 [105.9s] loss: 0.3315
+2022-04-20 22:49:31 INFO     test acc: 0.9824 test loss: 0.3308
+2022-04-20 22:49:31 INFO     Evaluation time: 3.2s
+2022-04-20 22:51:16 INFO     Epoch:6 [105.7s] loss: 0.3314
+2022-04-20 22:51:20 INFO     test acc: 0.9823 test loss: 0.3309
+2022-04-20 22:51:20 INFO     Evaluation time: 3.3s
+2022-04-20 22:53:06 INFO     Epoch:7 [105.8s] loss: 0.3313
+2022-04-20 22:53:09 INFO     test acc: 0.9824 test loss: 0.3308
+2022-04-20 22:53:09 INFO     Evaluation time: 3.2s
+2022-04-20 22:54:54 INFO     Epoch:8 [105.7s] loss: 0.3313
+2022-04-20 22:54:58 INFO     test acc: 0.9824 test loss: 0.3308
+2022-04-20 22:54:58 INFO     Evaluation time: 3.3s
+2022-04-20 22:54:58 INFO     Early stopping is trigger at epoch: 2 best acc:0.9824
